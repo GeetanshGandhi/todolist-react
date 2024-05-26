@@ -54,7 +54,7 @@ function App() {
   // react router dom:
   const router = createBrowserRouter([
     {
-      path: "/", element: <><Header/><AddToDo addToDo={addToDo}/><Footer footerStyle = {footerStyleAdd}/></>
+      path: "/todolist-react", element: <><Header/><AddToDo addToDo={addToDo}/><Footer footerStyle = {footerStyleAdd}/></>
     },
     {
       path: "/AddToDo", element: <><Header/><AddToDo addToDo={addToDo}/><Footer footerStyle = {footerStyleAdd}/></>
