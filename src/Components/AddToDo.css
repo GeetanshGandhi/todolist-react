@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&family=Sedan+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.addtask-container{
+    border: 2px solid rgb(0, 6, 56);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    /* bg image */
+    background-image : url("../images/todo-bg.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.addtask-heading{
+    text-align: center;
+    font: 50px "Sedan SC", serif;
+    color: rgb(0, 18, 182);
+}
+.addtask-innercontainer{
+    margin: 30px;
+}
+.addtask-subhead{
+    margin: 10px;
+    font: 20px "Salsa";
+}
+.addtask-input{
+    width: 100%;
+    font: 15px consolas, serif;
+    padding: 5px; 
+    border-radius: 7px;
+    border: none;
+    font-style: italic;
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+}
+.submit-button{
+    background-color: rgb(0, 202, 44);
+    color: black;
+    padding:5px 10px;
+    font: 20px "consolas";
+    border: 1px solid green;
+    border-radius: 10px;
+    margin: 0 0 80px 0;
+}

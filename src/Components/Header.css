@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&family=Sedan+SC&family=Sofia&display=swap');
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000731;
+    padding: 10px 20px;
+}
+
+.navbar-title {
+    color: white;
+    font: 1.5em "Sofia";
+}
+
+.navbar-links {
+    display: flex;
+    gap: 40px;
+    padding-right: 50px;
+    font: 15px consolas, monospace;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
