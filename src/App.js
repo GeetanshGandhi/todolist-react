@@ -62,7 +62,7 @@ function App() {
     {
       path: "/ToDoList", element: <><Header/><ToDoList todos={todolist} onDelete={onDelete}/><Footer footerStyle = {footerStyleList}/></>
     }
-  ]);
+  ], {basename: "todolist-react"});
   return (
     <div>
         <RouterProvider router = {router}/>   
