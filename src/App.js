@@ -4,7 +4,7 @@ import Footer from './Components/Footer';
 import ToDoList from './Components/ToDoList';
 import React, { useState, useEffect } from 'react';
 import AddToDo from './Components/AddToDo';
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {createHashRouter, RouterProvider} from "react-router-dom";
 function App() {
   const onDelete = (todo) =>{
     //deleting to-do item from DOM using useState hook
@@ -52,7 +52,7 @@ function App() {
     backgroundColor: "black", color: "cyan", font: "20px consolas", padding: "10px"
   }
   // react router dom:
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/todolist-react", element: <><Header/><AddToDo addToDo={addToDo}/><Footer footerStyle = {footerStyleAdd}/></>
     },
